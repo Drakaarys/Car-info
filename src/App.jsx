@@ -1,14 +1,18 @@
-import React from 'react'
-import Hero from './components/hero'
-import Featured from './components/Features'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/landing";
+import Cars from "./pages/cars";
+import Search from "./pages/SearchCar";
 
-const App = () => {
+function App() {
   return (
-    <div className='relative min-h-screen w-screen overflox-x-hidden'>
-      <Hero />
-      <Featured />
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cars" element={<Cars />} />
+        <Route path="/search" element={<Search />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
