@@ -12,10 +12,14 @@ const LandingSearch = () => {
   const sectionRef = useRef(null);
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!query.trim()) return;
-    navigate(`/search?q=${encodeURIComponent(query)}`);
-  };
+  e.preventDefault();
+
+  const cleanedQuery = query.trim().toLowerCase();
+  if (!cleanedQuery) return;
+
+  navigate(`/search?q=${encodeURIComponent(cleanedQuery)}`);
+};
+
 
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
