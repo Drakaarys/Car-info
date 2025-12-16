@@ -20,7 +20,7 @@ const Hero = () => {
       // VIDEO CLIP ANIMATION
       gsap.set("#video-frame", {
         clipPath: "polygon(14% 0, 72% 0, 88% 90%, 0 95%)",
-        borderRadius: "0% 0% 40% 10%",
+        borderRadius: "0% 0% 45% 15%",
       });
 
       gsap.from("#video-frame", {
@@ -61,11 +61,15 @@ const Hero = () => {
     {/* TOP TEXT (CUT BY VIDEO) */}
     <div className="relative z-30 flex h-full items-center px-20">
       <h1 className="hero-title hero-front text-white text-[96px] leading-[1.1] font-bold max-md:text-5xl">
-        {"E X P E R I E N C E".replace(/ /g, "\u00A0").split("").map((c, i) => (
+        {"S E A R C H .".replace(/ /g, "\u00A0").split("").map((c, i) => (
           <span key={i} className="inline-block">{c}</span>
         ))}
         <br />
-        {"C A R S  I N  M O T I O N".replace(/ /g, "\u00A0").split("").map((c, i) => (
+        {"C O M P A R E .".replace(/ /g, "\u00A0").split("").map((c, i) => (
+          <span key={i} className="inline-block">{c}</span>
+        ))}
+        <br />
+        {"O B S E S S .".replace(/ /g, "\u00A0").split("").map((c, i) => (
           <span key={i} className="inline-block">{c}</span>
         ))}
       </h1>
@@ -75,13 +79,17 @@ const Hero = () => {
   {/* HIDDEN TEXT (REVEALS ON SCROLL) */}
   <div className="absolute inset-0 z-10 flex h-full items-center px-20 pointer-events-none">
     <h1 className="hero-title hero-back text-black text-[96px] leading-[1.1] font-bold max-md:text-5xl">
-      {"E X P E R I E N C E".replace(/ /g, "\u00A0").split("").map((c, i) => (
-        <span key={i} className="inline-block">{c}</span>
-      ))}
-      <br />
-      {"C A R S  I N  M O T I O N".replace(/ /g, "\u00A0").split("").map((c, i) => (
-        <span key={i} className="inline-block">{c}</span>
-      ))}
+      {"S E A R C H .".replace(/ /g, "\u00A0").split("").map((c, i) => (
+          <span key={i} className="inline-block">{c}</span>
+        ))}
+        <br />
+        {"C O M P A R E .".replace(/ /g, "\u00A0").split("").map((c, i) => (
+          <span key={i} className="inline-block">{c}</span>
+        ))}
+        <br />
+        {"O B S E S S .".replace(/ /g, "\u00A0").split("").map((c, i) => (
+          <span key={i} className="inline-block">{c}</span>
+        ))}
     </h1>
   </div>
 </section>

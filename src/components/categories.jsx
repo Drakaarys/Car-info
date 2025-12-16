@@ -28,7 +28,7 @@ const Categories = () => {
   }, []);
 
   return (
-    <section className="categories-section relative w-full bg-[#0b0b0b] py-32">
+    <section className="categories-section relative w-full bg-[#010007] py-32">
 
       {/* Header */}
       <div className="mb-16 px-20 max-md:px-6 text-center">
