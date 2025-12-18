@@ -28,3 +28,10 @@ export const getCategory = (car) => {
 
   return "others";
 };
+
+// existing helpers stay exactly as they are 👆
+
+export const getCarSlug = (car) =>
+  `${car.brand}-${car.model}-${car.variant || "standard"}`
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-");

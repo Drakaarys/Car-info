@@ -10,28 +10,31 @@ const AnimatedTitle = ({ title, containerClass }) => {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      const titleAnimation = gsap.timeline({
-        scrollTrigger: {
-          trigger: containerRef.current,
-          start: "100 bottom",
-          end: "center bottom",
-          toggleActions: "play none none reverse",
-        },
-      });
+      const q = gsap.utils.selector(containerRef);
 
-      titleAnimation.to(
-        ".animated-word",
-        {
-          opacity: 1,
-          transform: "translate3d(0, 0, 0) rotateY(0deg) rotateX(0deg)",
-          ease: "power2.inOut",
-          stagger: 0.02,
-        },
-        0
-      );
+      gsap.fromTo(
+  q(".animated-word"),
+  {
+    opacity: 0,
+    transform: "translate3d(80px, 0, 0) rotateY(-15deg)",
+  },
+  {
+    opacity: 1,
+    transform: "translate3d(0, 0, 0) rotateY(0deg) rotateX(0deg)",
+    ease: "power2.inOut",
+    stagger: 0.02,
+    scrollTrigger: {
+      trigger: containerRef.current,
+      start: "100 bottom right",
+      end: "center bottom",
+      toggleActions: "play none none reverse",
+    },
+  }
+);
+
     }, containerRef);
 
-    return () => ctx.revert(); // Clean up on unmount
+    return () => ctx.revert();
   }, []);
 
   return (

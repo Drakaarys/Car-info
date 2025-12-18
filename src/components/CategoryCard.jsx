@@ -9,7 +9,7 @@ const CategoryCard = ({ category }) => {
   };
 
   return (
-    <div onClick={handleClick} className="category-card group relative h-[700px] w-[200px] cursor-pointer overflow-hidden rounded-3xl">
+    <div onClick={handleClick} className="category-card group relative h-[700px] w-[200px] cursor-pointer overflow-hidden rounded-2xl">
 
       {/* Background Image */}
       <img

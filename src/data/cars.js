@@ -1,4 +1,5 @@
-export const cars = [
+export const cars=
+[
   {
     "id": 1,
     "brand": "Tata",
@@ -40,41 +41,182 @@ export const cars = [
       "wirelessCarPlay": true
     },
     "images": {
-  id: 1,
-  brand: "Tata",
-  model: "Nexon",
-  images: {
-    thumbnail: "https://cdni.autocarindia.com/ExtraImages/20230912035733_Tata_Nexon_facelift.jpg",
-    gallery: [
-      "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Nexon/9977/1694680449657/front-left-side-47.jpg",
-      "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Nexon/9977/1694680449657/rear-right-side-48.jpg"
-    ]
-  }
-}
-
+      "thumbnail": "https://gaadiwaadi.com/wp-content/uploads/2025/01/2025-tata-nexon1.jpg",
+      "gallery": [
+        "https://imgd.aeplcdn.com/0X0/n/cw/ec/44766/tata-nexon-ev-interior-dashboard8.jpeg?wm=1&q=85",
+        "https://www.autobics.com/wp-content/uploads/2021/07/2021-Tata-Nexon-EV-Dark-Rear-Quarter.jpg"
+      ]
+    }
   },
 
   {
     "id": 2,
-    "brand": "Mahindra",
-    "model": "XUV700",
-    "variant": "AX7L",
+    "brand": "Hyundai",
+    "model": "Creta",
+    "variant": "SX(O)",
     "country": "India",
     "bodyType": "SUV",
-    "fuelType": "Diesel",
+    "fuelType": "Petrol",
     "price": {
-      "min": 2399000,
-      "max": 2899000,
+      "min": 1670000,
+      "max": 2000000,
       "currency": "INR"
     },
     "engine": {
-      "displacementCC": 2198,
+      "displacementCC": 1497,
       "cylinders": 4,
-      "horsepower": 182,
-      "torqueNm": 450
+      "horsepower": 115,
+      "torqueNm": 144
     },
     "performance": {
-      "mileage": 15.0,
+      "mileage": 17.4,
+      "fuelTankLitres": 50,
+      "topSpeedKmph": 185,
+      "groundClearanceMm": 190,
+      "zeroToHundred": 10.5
+    },
+    "dimensions": {
+      "lengthMm": 4330,
+      "widthMm": 1790,
+      "heightMm": 1635,
+      "bootSpaceLitres": 433
+    },
+    "features": {
+      "airbags": 6,
+      "abs": true,
+      "adas": true,
+      "sunroof": true,
+      "touchscreenInches": 10.25,
+      "wirelessCarPlay": true
+    },
+    "images": {
+      "thumbnail": "https://cdn.imagin.studio/getimage?make=Hyundai&modelFamily=Creta&angle=01",
+      "gallery": [
+        "https://cdn.imagin.studio/getimage?make=Hyundai&modelFamily=Creta&angle=02",
+        "https://cdn.imagin.studio/getimage?make=Hyundai&modelFamily=Creta&angle=03"
+      ]
+    }
+  },
+
+  {
+    "id": 3,
+    "brand": "Maruti Suzuki",
+    "model": "Grand Vitara",
+    "variant": "Alpha Plus",
+    "country": "India",
+    "bodyType": "SUV",
+    "fuelType": "Hybrid",
+    "price": {
+      "min": 1840000,
+      "max": 2050000,
+      "currency": "INR"
+    },
+    "engine": {
+      "displacementCC": 1490,
+      "cylinders": 3,
+      "horsepower": 115,
+      "torqueNm": 141
+    },
+    "performance": {
+      "mileage": 27.9,
+      "fuelTankLitres": 45,
+      "topSpeedKmph": 175,
+      "groundClearanceMm": 210,
+      "zeroToHundred": 11.2
+    },
+    "dimensions": {
+      "lengthMm": 4345,
+      "widthMm": 1795,
+      "heightMm": 1645,
+      "bootSpaceLitres": 373
+    },
+    "features": {
+      "airbags": 6,
+      "abs": true,
+      "adas": false,
+      "sunroof": true,
+      "touchscreenInches": 9,
+      "wirelessCarPlay": true
+    },
+    "images": {
+      "thumbnail": "https://cdn.imagin.studio/getimage?make=Maruti%20Suzuki&modelFamily=Grand%20Vitara&angle=01",
+      "gallery": [
+        "https://cdn.imagin.studio/getimage?make=Maruti%20Suzuki&modelFamily=Grand%20Vitara&angle=02",
+        "https://cdn.imagin.studio/getimage?make=Maruti%20Suzuki&modelFamily=Grand%20Vitara&angle=03"
+      ]
+    }
+  },
+
+  {
+    "id": 4,
+    "brand": "Kia",
+    "model": "Seltos",
+    "variant": "GTX Plus",
+    "country": "India",
+    "bodyType": "SUV",
+    "fuelType": "Petrol",
+    "price": {
+      "min": 1950000,
+      "max": 2200000,
+      "currency": "INR"
+    },
+    "engine": {
+      "displacementCC": 1482,
+      "cylinders": 4,
+      "horsepower": 158,
+      "torqueNm": 253
+    },
+    "performance": {
+      "mileage": 17.9,
+      "fuelTankLitres": 50,
+      "topSpeedKmph": 190,
+      "groundClearanceMm": 190,
+      "zeroToHundred": 8.9
+    },
+    "dimensions": {
+      "lengthMm": 4365,
+      "widthMm": 1800,
+      "heightMm": 1645,
+      "bootSpaceLitres": 433
+    },
+    "features": {
+      "airbags": 6,
+      "abs": true,
+      "adas": true,
+      "sunroof": true,
+      "touchscreenInches": 10.25,
+      "wirelessCarPlay": true
+    },
+    "images": {
+      "thumbnail": "https://cdn.imagin.studio/getimage?make=Kia&modelFamily=Seltos&angle=01",
+      "gallery": [
+        "https://cdn.imagin.studio/getimage?make=Kia&modelFamily=Seltos&angle=02",
+        "https://cdn.imagin.studio/getimage?make=Kia&modelFamily=Seltos&angle=03"
+      ]
+    }
+  },
+
+  {
+    "id": 5,
+    "brand": "Mahindra",
+    "model": "XUV700",
+    "variant": "AX7",
+    "country": "India",
+    "bodyType": "SUV",
+    "fuelType": "Petrol",
+    "price": {
+      "min": 2400000,
+      "max": 2900000,
+      "currency": "INR"
+    },
+    "engine": {
+      "displacementCC": 1999,
+      "cylinders": 4,
+      "horsepower": 197,
+      "torqueNm": 380
+    },
+    "performance": {
+      "mileage": 13,
       "fuelTankLitres": 60,
       "topSpeedKmph": 200,
       "groundClearanceMm": 200,
@@ -90,1294 +232,16 @@ export const cars = [
       "airbags": 7,
       "abs": true,
       "adas": true,
-      "panoramicSunroof": true,
+      "sunroof": true,
       "touchscreenInches": 10.25,
-      "sonyAudio": true
-    },
-    "images": {
-      "thumbnail": "/images/xuv700/thumb.jpg",
-      "gallery": [
-        "/images/xuv700/front.jpg",
-        "/images/xuv700/interior.jpg",
-        "/images/xuv700/dashboard.jpg"
-      ]
-    }
-  },
-
-  {
-    "id": 3,
-    "brand": "Maruti Suzuki",
-    "model": "Swift",
-    "variant": "ZXI+",
-    "country": "India",
-    "bodyType": "Hatchback",
-    "fuelType": "Petrol",
-    "price": {
-      "min": 899000,
-      "max": 1099000,
-      "currency": "INR"
-    },
-    "engine": {
-      "displacementCC": 1197,
-      "cylinders": 4,
-      "horsepower": 89,
-      "torqueNm": 113
-    },
-    "performance": {
-      "mileage": 22.3,
-      "fuelTankLitres": 37,
-      "topSpeedKmph": 165,
-      "groundClearanceMm": 163,
-      "zeroToHundred": 10.6
-    },
-    "dimensions": {
-      "lengthMm": 3845,
-      "widthMm": 1735,
-      "heightMm": 1530,
-      "bootSpaceLitres": 268
-    },
-    "features": {
-      "airbags": 6,
-      "abs": true,
-      "touchscreenInches": 9,
       "wirelessCarPlay": true
     },
     "images": {
-      "thumbnail": "/images/swift/thumb.jpg",
+      "thumbnail": "https://cdn.imagin.studio/getimage?make=Mahindra&modelFamily=XUV700&angle=01",
       "gallery": [
-        "/images/swift/front.jpg",
-        "/images/swift/rear.jpg"
+        "https://cdn.imagin.studio/getimage?make=Mahindra&modelFamily=XUV700&angle=02",
+        "https://cdn.imagin.studio/getimage?make=Mahindra&modelFamily=XUV700&angle=03"
       ]
     }
-  },
-
-  {
-    "id": 4,
-    "brand": "Hyundai",
-    "model": "Creta",
-    "variant": "SX(O)",
-    "country": "Korea",
-    "bodyType": "SUV",
-    "fuelType": "Petrol",
-    "price": {
-      "min": 1699000,
-      "max": 1999000,
-      "currency": "INR"
-    },
-    "engine": {
-      "displacementCC": 1497,
-      "cylinders": 4,
-      "horsepower": 113,
-      "torqueNm": 144
-    },
-    "performance": {
-      "mileage": 16.8,
-      "fuelTankLitres": 50,
-      "topSpeedKmph": 190,
-      "groundClearanceMm": 190
-    },
-    "features": {
-      "airbags": 6,
-      "adas": true,
-      "panoramicSunroof": true,
-      "touchscreenInches": 10.25
-    },
-    "images": {
-      "thumbnail": "/images/creta/thumb.jpg",
-      "gallery": [
-        "/images/creta/front.jpg",
-        "/images/creta/interior.jpg"
-      ]
-    }
-  },
-
-  {
-    "id": 5,
-    "brand": "Toyota",
-    "model": "Fortuner",
-    "variant": "Legender",
-    "country": "Japan",
-    "bodyType": "SUV",
-    "fuelType": "Diesel",
-    "price": {
-      "min": 4380000,
-      "max": 5080000,
-      "currency": "INR"
-    },
-    "engine": {
-      "displacementCC": 2755,
-      "cylinders": 4,
-      "horsepower": 201,
-      "torqueNm": 500
-    },
-    "performance": {
-      "mileage": 14.4,
-      "fuelTankLitres": 80,
-      "topSpeedKmph": 210,
-      "groundClearanceMm": 225
-    },
-    "features": {
-      "airbags": 7,
-      "4x4": true,
-      "touchscreenInches": 8
-    },
-    "images": {
-      "thumbnail": "/images/fortuner/thumb.jpg",
-      "gallery": [
-        "/images/fortuner/front.jpg",
-        "/images/fortuner/interior.jpg"
-      ]
-    }
-  },
-{
-  "id": 6,
-  "brand": "Honda",
-  "model": "City",
-  "variant": "ZX",
-  "country": "Japan",
-  "bodyType": "Sedan",
-  "fuelType": "Petrol",
-  "price": { "min": 1499000, "max": 1899000, "currency": "INR" },
-  "engine": { "displacementCC": 1498, "cylinders": 4, "horsepower": 119, "torqueNm": 145 },
-  "performance": { "mileage": 18.4, "fuelTankLitres": 40, "topSpeedKmph": 195, "groundClearanceMm": 165 },
-  "features": { "airbags": 6, "adas": true, "sunroof": true, "touchscreenInches": 8 },
-  "images": { "thumbnail": "/images/city/thumb.jpg", "gallery": ["/images/city/front.jpg", "/images/city/interior.jpg"] }
-},
-{
-  "id": 7,
-  "brand": "Skoda",
-  "model": "Slavia",
-  "variant": "1.5 Style",
-  "country": "Czech Republic",
-  "bodyType": "Sedan",
-  "fuelType": "Petrol",
-  "price": { "min": 1799000, "max": 2099000, "currency": "INR" },
-  "engine": { "displacementCC": 1498, "cylinders": 4, "horsepower": 148, "torqueNm": 250 },
-  "performance": { "mileage": 18.7, "fuelTankLitres": 45, "topSpeedKmph": 220, "groundClearanceMm": 179 },
-  "features": { "airbags": 6, "sunroof": true, "touchscreenInches": 10 },
-  "images": { "thumbnail": "/images/slavia/thumb.jpg", "gallery": ["/images/slavia/front.jpg"] }
-},
-{
-  "id": 8,
-  "brand": "Volkswagen",
-  "model": "Virtus",
-  "variant": "GT Plus",
-  "country": "Germany",
-  "bodyType": "Sedan",
-  "fuelType": "Petrol",
-  "price": { "min": 1849000, "max": 2199000, "currency": "INR" },
-  "engine": { "displacementCC": 1498, "cylinders": 4, "horsepower": 148, "torqueNm": 250 },
-  "performance": { "mileage": 19.0, "fuelTankLitres": 45, "topSpeedKmph": 220 },
-  "features": { "airbags": 6, "touchscreenInches": 10 },
-  "images": { "thumbnail": "/images/virtus/thumb.jpg", "gallery": ["/images/virtus/front.jpg"] }
-},
-{
-  "id": 9,
-  "brand": "Kia",
-  "model": "Seltos",
-  "variant": "GTX+",
-  "country": "Korea",
-  "bodyType": "SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 1999000, "max": 2299000, "currency": "INR" },
-  "engine": { "displacementCC": 1482, "cylinders": 4, "horsepower": 158, "torqueNm": 253 },
-  "performance": { "mileage": 16.5, "fuelTankLitres": 50, "topSpeedKmph": 205 },
-  "features": { "airbags": 6, "adas": true, "panoramicSunroof": true },
-  "images": { "thumbnail": "/images/seltos/thumb.jpg", "gallery": ["/images/seltos/front.jpg"] }
-},
-{
-  "id": 10,
-  "brand": "MG",
-  "model": "Hector",
-  "variant": "Sharp Pro",
-  "country": "UK",
-  "bodyType": "SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 2199000, "max": 2499000, "currency": "INR" },
-  "engine": { "displacementCC": 1451, "cylinders": 4, "horsepower": 141, "torqueNm": 250 },
-  "performance": { "mileage": 14.0, "fuelTankLitres": 60, "topSpeedKmph": 195 },
-  "features": { "airbags": 6, "panoramicSunroof": true, "touchscreenInches": 14 },
-  "images": { "thumbnail": "/images/hector/thumb.jpg", "gallery": ["/images/hector/front.jpg"] }
-},
-{
-  "id": 11,
-  "brand": "BMW",
-  "model": "X5",
-  "variant": "xDrive40i",
-  "country": "Germany",
-  "bodyType": "Luxury SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 9590000, "max": 10590000, "currency": "INR" },
-  "engine": { "displacementCC": 2998, "cylinders": 6, "horsepower": 335, "torqueNm": 450 },
-  "performance": { "mileage": 11.2, "fuelTankLitres": 83, "topSpeedKmph": 243 },
-  "features": { "airbags": 8, "adas": true, "panoramicSunroof": true },
-  "images": { "thumbnail": "/images/x5/thumb.jpg", "gallery": ["/images/x5/front.jpg"] }
-},
-{
-  "id": 12,
-  "brand": "Mercedes-Benz",
-  "model": "C-Class",
-  "variant": "C300",
-  "country": "Germany",
-  "bodyType": "Sedan",
-  "fuelType": "Petrol",
-  "price": { "min": 5990000, "max": 6690000, "currency": "INR" },
-  "engine": { "displacementCC": 1999, "cylinders": 4, "horsepower": 255, "torqueNm": 400 },
-  "performance": { "mileage": 12.6, "fuelTankLitres": 66, "topSpeedKmph": 250 },
-  "features": { "airbags": 7, "adas": true },
-  "images": { "thumbnail": "/images/cclass/thumb.jpg", "gallery": ["/images/cclass/front.jpg"] }
-},
-{
-  "id": 13,
-  "brand": "Audi",
-  "model": "A4",
-  "variant": "Premium Plus",
-  "country": "Germany",
-  "bodyType": "Sedan",
-  "fuelType": "Petrol",
-  "price": { "min": 5390000, "max": 5890000, "currency": "INR" },
-  "engine": { "displacementCC": 1984, "cylinders": 4, "horsepower": 201, "torqueNm": 320 },
-  "performance": { "mileage": 14.1, "fuelTankLitres": 54 },
-  "features": { "airbags": 6, "adas": true },
-  "images": { "thumbnail": "/images/a4/thumb.jpg", "gallery": ["/images/a4/front.jpg"] }
-},
-{
-  "id": 14,
-  "brand": "Tesla",
-  "model": "Model 3",
-  "variant": "Long Range",
-  "country": "USA",
-  "bodyType": "Sedan",
-  "fuelType": "Electric",
-  "price": { "min": 4500000, "max": 5500000, "currency": "INR" },
-  "engine": { "horsepower": 346 },
-  "performance": { "rangeKm": 560, "topSpeedKmph": 233, "zeroToHundred": 4.4 },
-  "features": { "adas": true, "autopilot": true },
-  "images": { "thumbnail": "/images/model3/thumb.jpg", "gallery": ["/images/model3/front.jpg"] }
-},
-{
-  "id": 15,
-  "brand": "Porsche",
-  "model": "911",
-  "variant": "Carrera",
-  "country": "Germany",
-  "bodyType": "Sports",
-  "fuelType": "Petrol",
-  "price": { "min": 18400000, "max": 21000000, "currency": "INR" },
-  "engine": { "displacementCC": 2981, "horsepower": 379, "torqueNm": 450 },
-  "performance": { "topSpeedKmph": 293, "zeroToHundred": 4.2 },
-  "features": { "airbags": 6, "sportMode": true },
-  "images": { "thumbnail": "/images/911/thumb.jpg", "gallery": ["/images/911/front.jpg"] }
-},
-{
-  "id": 16,
-  "brand": "Maruti Suzuki",
-  "model": "Brezza",
-  "variant": "Zxi Plus",
-  "country": "India",
-  "bodyType": "SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 1199000, "max": 1499000, "currency": "INR" },
-  "engine": { "displacementCC": 1462, "cylinders": 4, "horsepower": 102, "torqueNm": 137 },
-  "performance": { "mileage": 19.8, "fuelTankLitres": 48, "topSpeedKmph": 170, "groundClearanceMm": 198 },
-  "features": { "airbags": 6, "sunroof": true, "touchscreenInches": 9 },
-  "images": { "thumbnail": "/images/brezza/thumb.jpg", "gallery": ["/images/brezza/front.jpg"] }
-},
-{
-  "id": 17,
-  "brand": "Maruti Suzuki",
-  "model": "Baleno",
-  "variant": "Alpha",
-  "country": "India",
-  "bodyType": "Hatchback",
-  "fuelType": "Petrol",
-  "price": { "min": 869000, "max": 1099000, "currency": "INR" },
-  "engine": { "displacementCC": 1197, "cylinders": 4, "horsepower": 89, "torqueNm": 113 },
-  "performance": { "mileage": 22.9, "fuelTankLitres": 37, "topSpeedKmph": 165 },
-  "features": { "airbags": 6, "touchscreenInches": 9 },
-  "images": { "thumbnail": "/images/baleno/thumb.jpg", "gallery": ["/images/baleno/front.jpg"] }
-},
-{
-  "id": 18,
-  "brand": "Hyundai",
-  "model": "Verna",
-  "variant": "Turbo SX",
-  "country": "Korea",
-  "bodyType": "Sedan",
-  "fuelType": "Petrol",
-  "price": { "min": 1599000, "max": 1799000, "currency": "INR" },
-  "engine": { "displacementCC": 1482, "cylinders": 4, "horsepower": 158, "torqueNm": 253 },
-  "performance": { "mileage": 20.6, "fuelTankLitres": 45, "topSpeedKmph": 210 },
-  "features": { "airbags": 6, "adas": true, "touchscreenInches": 10.25 },
-  "images": { "thumbnail": "/images/verna/thumb.jpg", "gallery": ["/images/verna/front.jpg"] }
-},
-{
-  "id": 19,
-  "brand": "Tata",
-  "model": "Punch",
-  "variant": "Creative",
-  "country": "India",
-  "bodyType": "Micro SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 699000, "max": 929000, "currency": "INR" },
-  "engine": { "displacementCC": 1199, "cylinders": 3, "horsepower": 86, "torqueNm": 113 },
-  "performance": { "mileage": 20.1, "fuelTankLitres": 37, "groundClearanceMm": 187 },
-  "features": { "airbags": 4, "touchscreenInches": 7 },
-  "images": { "thumbnail": "/images/punch/thumb.jpg", "gallery": ["/images/punch/front.jpg"] }
-},
-{
-  "id": 20,
-  "brand": "Mahindra",
-  "model": "Scorpio-N",
-  "variant": "Z8L",
-  "country": "India",
-  "bodyType": "SUV",
-  "fuelType": "Diesel",
-  "price": { "min": 2499000, "max": 2999000, "currency": "INR" },
-  "engine": { "displacementCC": 2198, "cylinders": 4, "horsepower": 172, "torqueNm": 400 },
-  "performance": { "mileage": 14.5, "fuelTankLitres": 57, "groundClearanceMm": 187 },
-  "features": { "airbags": 6, "4x4": true },
-  "images": { "thumbnail": "/images/scorpion/thumb.jpg", "gallery": ["/images/scorpion/front.jpg"] }
-},
-{
-  "id": 21,
-  "brand": "Mahindra",
-  "model": "Thar",
-  "variant": "LX 4x4",
-  "country": "India",
-  "bodyType": "Off-road SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 1599000, "max": 1899000, "currency": "INR" },
-  "engine": { "displacementCC": 1997, "cylinders": 4, "horsepower": 150, "torqueNm": 320 },
-  "performance": { "mileage": 15.2, "groundClearanceMm": 226 },
-  "features": { "airbags": 4, "4x4": true },
-  "images": { "thumbnail": "/images/thar/thumb.jpg", "gallery": ["/images/thar/front.jpg"] }
-},
-{
-  "id": 22,
-  "brand": "Toyota",
-  "model": "Camry",
-  "variant": "Hybrid",
-  "country": "Japan",
-  "bodyType": "Sedan",
-  "fuelType": "Hybrid",
-  "price": { "min": 4690000, "max": 4890000, "currency": "INR" },
-  "engine": { "displacementCC": 2487, "horsepower": 218 },
-  "performance": { "mileage": 23.2, "fuelTankLitres": 50 },
-  "features": { "airbags": 9, "adas": true },
-  "images": { "thumbnail": "/images/camry/thumb.jpg", "gallery": ["/images/camry/front.jpg"] }
-},
-{
-  "id": 23,
-  "brand": "Toyota",
-  "model": "Corolla",
-  "variant": "Altis",
-  "country": "Japan",
-  "bodyType": "Sedan",
-  "fuelType": "Petrol",
-  "price": { "min": 1699000, "max": 1899000, "currency": "INR" },
-  "engine": { "displacementCC": 1798, "horsepower": 138 },
-  "performance": { "mileage": 16.5 },
-  "features": { "airbags": 7 },
-  "images": { "thumbnail": "/images/corolla/thumb.jpg", "gallery": ["/images/corolla/front.jpg"] }
-},
-{
-  "id": 24,
-  "brand": "Ford",
-  "model": "Mustang",
-  "variant": "GT",
-  "country": "USA",
-  "bodyType": "Sports",
-  "fuelType": "Petrol",
-  "price": { "min": 7400000, "max": 8000000, "currency": "INR" },
-  "engine": { "displacementCC": 4951, "horsepower": 450, "torqueNm": 529 },
-  "performance": { "topSpeedKmph": 250, "zeroToHundred": 4.5 },
-  "features": { "sportMode": true },
-  "images": { "thumbnail": "/images/mustang/thumb.jpg", "gallery": ["/images/mustang/front.jpg"] }
-},
-{
-  "id": 25,
-  "brand": "Chevrolet",
-  "model": "Camaro",
-  "variant": "SS",
-  "country": "USA",
-  "bodyType": "Sports",
-  "fuelType": "Petrol",
-  "price": { "min": 7800000, "max": 8500000, "currency": "INR" },
-  "engine": { "displacementCC": 6162, "horsepower": 455 },
-  "performance": { "topSpeedKmph": 290 },
-  "features": { "sportMode": true },
-  "images": { "thumbnail": "/images/camaro/thumb.jpg", "gallery": ["/images/camaro/front.jpg"] }
-},
-{
-  "id": 26,
-  "brand": "Toyota",
-  "model": "Supra",
-  "variant": "GR",
-  "country": "Japan",
-  "bodyType": "Sports",
-  "fuelType": "Petrol",
-  "price": { "min": 8500000, "max": 9000000, "currency": "INR" },
-  "engine": { "displacementCC": 2998, "horsepower": 382 },
-  "performance": { "zeroToHundred": 4.1, "topSpeedKmph": 250 },
-  "features": { "sportMode": true },
-  "images": { "thumbnail": "/images/supra/thumb.jpg", "gallery": ["/images/supra/front.jpg"] }
-},
-{
-  "id": 27,
-  "brand": "Tesla",
-  "model": "Model Y",
-  "variant": "Performance",
-  "country": "USA",
-  "bodyType": "Electric SUV",
-  "fuelType": "Electric",
-  "price": { "min": 5500000, "max": 6500000, "currency": "INR" },
-  "performance": { "rangeKm": 514, "zeroToHundred": 3.7 },
-  "features": { "autopilot": true },
-  "images": { "thumbnail": "/images/modely/thumb.jpg", "gallery": ["/images/modely/front.jpg"] }
-},
-{
-  "id": 28,
-  "brand": "Tata",
-  "model": "Nexon EV",
-  "variant": "Long Range",
-  "country": "India",
-  "bodyType": "Electric SUV",
-  "fuelType": "Electric",
-  "price": { "min": 1799000, "max": 1999000, "currency": "INR" },
-  "performance": { "rangeKm": 465 },
-  "features": { "airbags": 6 },
-  "images": { "thumbnail": "/images/nexonev/thumb.jpg", "gallery": ["/images/nexonev/front.jpg"] }
-},
-{
-  "id": 29,
-  "brand": "MG",
-  "model": "ZS EV",
-  "variant": "Exclusive",
-  "country": "UK",
-  "bodyType": "Electric SUV",
-  "fuelType": "Electric",
-  "price": { "min": 2299000, "max": 2499000, "currency": "INR" },
-  "performance": { "rangeKm": 461 },
-  "features": { "adas": true },
-  "images": { "thumbnail": "/images/zsev/thumb.jpg", "gallery": ["/images/zsev/front.jpg"] }
-},
-{
-  "id": 30,
-  "brand": "BYD",
-  "model": "Atto 3",
-  "variant": "Electric",
-  "country": "China",
-  "bodyType": "Electric SUV",
-  "fuelType": "Electric",
-  "price": { "min": 3399000, "max": 3499000, "currency": "INR" },
-  "performance": { "rangeKm": 521 },
-  "features": { "airbags": 7 },
-  "images": { "thumbnail": "/images/atto3/thumb.jpg", "gallery": ["/images/atto3/front.jpg"] }
-},
-{
-  "id": 31,
-  "brand": "Ferrari",
-  "model": "F8 Tributo",
-  "variant": "V8",
-  "country": "Italy",
-  "bodyType": "Supercar",
-  "fuelType": "Petrol",
-  "price": { "min": 42500000, "max": 45000000, "currency": "INR" },
-  "engine": { "displacementCC": 3902, "horsepower": 710 },
-  "performance": { "zeroToHundred": 2.9, "topSpeedKmph": 340 },
-  "features": { "sportMode": true },
-  "images": { "thumbnail": "/images/f8/thumb.jpg", "gallery": ["/images/f8/front.jpg"] }
-},
-{
-  "id": 32,
-  "brand": "Lamborghini",
-  "model": "Huracan",
-  "variant": "EVO",
-  "country": "Italy",
-  "bodyType": "Supercar",
-  "fuelType": "Petrol",
-  "price": { "min": 39000000, "max": 42000000, "currency": "INR" },
-  "engine": { "displacementCC": 5204, "horsepower": 631 },
-  "performance": { "zeroToHundred": 2.9, "topSpeedKmph": 325 },
-  "features": { "sportMode": true },
-  "images": { "thumbnail": "/images/huracan/thumb.jpg", "gallery": ["/images/huracan/front.jpg"] }
-},
-{
-  "id": 33,
-  "brand": "McLaren",
-  "model": "720S",
-  "variant": "Coupe",
-  "country": "UK",
-  "bodyType": "Supercar",
-  "fuelType": "Petrol",
-  "price": { "min": 45000000, "max": 47000000, "currency": "INR" },
-  "engine": { "displacementCC": 3994, "horsepower": 710 },
-  "performance": { "zeroToHundred": 2.8, "topSpeedKmph": 341 },
-  "features": { "sportMode": true },
-  "images": { "thumbnail": "/images/720s/thumb.jpg", "gallery": ["/images/720s/front.jpg"] }
-},
-{
-  "id": 34,
-  "brand": "Hyundai",
-  "model": "Ioniq 5",
-  "variant": "EV",
-  "country": "Korea",
-  "bodyType": "Electric SUV",
-  "fuelType": "Electric",
-  "price": { "min": 4599000, "max": 4899000, "currency": "INR" },
-  "performance": { "rangeKm": 631 },
-  "features": { "adas": true },
-  "images": { "thumbnail": "/images/ioniq5/thumb.jpg", "gallery": ["/images/ioniq5/front.jpg"] }
-},
-{
-  "id": 35,
-  "brand": "BMW",
-  "model": "M3",
-  "variant": "Competition",
-  "country": "Germany",
-  "bodyType": "Sports Sedan",
-  "fuelType": "Petrol",
-  "price": { "min": 14700000, "max": 15000000, "currency": "INR" },
-  "engine": { "displacementCC": 2993, "horsepower": 503 },
-  "performance": { "zeroToHundred": 3.9 },
-  "features": { "sportMode": true },
-  "images": { "thumbnail": "/images/m3/thumb.jpg", "gallery": ["/images/m3/front.jpg"] }
-},
-{
-  "id": 36,
-  "brand": "Audi",
-  "model": "RS5",
-  "variant": "Sportback",
-  "country": "Germany",
-  "bodyType": "Sports Sedan",
-  "fuelType": "Petrol",
-  "price": { "min": 11100000, "max": 11500000, "currency": "INR" },
-  "engine": { "displacementCC": 2894, "horsepower": 444 },
-  "performance": { "zeroToHundred": 3.9 },
-  "features": { "sportMode": true },
-  "images": { "thumbnail": "/images/rs5/thumb.jpg", "gallery": ["/images/rs5/front.jpg"] }
-},
-{
-  "id": 37,
-  "brand": "Mercedes-Benz",
-  "model": "AMG GT",
-  "variant": "Coupe",
-  "country": "Germany",
-  "bodyType": "Supercar",
-  "fuelType": "Petrol",
-  "price": { "min": 23000000, "max": 25000000, "currency": "INR" },
-  "engine": { "displacementCC": 3982, "horsepower": 469 },
-  "performance": { "zeroToHundred": 4.0 },
-  "features": { "sportMode": true },
-  "images": { "thumbnail": "/images/amggt/thumb.jpg", "gallery": ["/images/amggt/front.jpg"] }
-},
-{
-  "id": 38,
-  "brand": "Jeep",
-  "model": "Compass",
-  "variant": "Model S",
-  "country": "USA",
-  "bodyType": "SUV",
-  "fuelType": "Diesel",
-  "price": { "min": 2499000, "max": 2999000, "currency": "INR" },
-  "engine": { "displacementCC": 1956, "horsepower": 168 },
-  "performance": { "mileage": 16.3 },
-  "features": { "airbags": 6 },
-  "images": { "thumbnail": "/images/compass/thumb.jpg", "gallery": ["/images/compass/front.jpg"] }
-},
-{
-  "id": 39,
-  "brand": "Nissan",
-  "model": "GTR",
-  "variant": "R35",
-  "country": "Japan",
-  "bodyType": "Supercar",
-  "fuelType": "Petrol",
-  "price": { "min": 21000000, "max": 23000000, "currency": "INR" },
-  "engine": { "displacementCC": 3799, "horsepower": 565 },
-  "performance": { "zeroToHundred": 2.8 },
-  "features": { "sportMode": true },
-  "images": { "thumbnail": "/images/gtr/thumb.jpg", "gallery": ["/images/gtr/front.jpg"] }
-},
-{
-  "id": 40,
-  "brand": "Rolls-Royce",
-  "model": "Phantom",
-  "variant": "Series II",
-  "country": "UK",
-  "bodyType": "Luxury Sedan",
-  "fuelType": "Petrol",
-  "price": { "min": 95000000, "max": 105000000, "currency": "INR" },
-  "engine": { "displacementCC": 6749, "horsepower": 563 },
-  "features": { "luxuryInterior": true },
-  "images": { "thumbnail": "/images/phantom/thumb.jpg", "gallery": ["/images/phantom/front.jpg"] }
-},
-{
-  "id": 41,
-  "brand": "Bentley",
-  "model": "Continental GT",
-  "variant": "Speed",
-  "country": "UK",
-  "bodyType": "Luxury Coupe",
-  "fuelType": "Petrol",
-  "price": { "min": 45000000, "max": 48000000, "currency": "INR" },
-  "engine": { "displacementCC": 5998, "horsepower": 650 },
-  "features": { "luxuryInterior": true },
-  "images": { "thumbnail": "/images/continental/thumb.jpg", "gallery": ["/images/continental/front.jpg"] }
-},
-{
-  "id": 42,
-  "brand": "Volvo",
-  "model": "XC60",
-  "variant": "Recharge",
-  "country": "Sweden",
-  "bodyType": "SUV",
-  "fuelType": "Hybrid",
-  "price": { "min": 6890000, "max": 7090000, "currency": "INR" },
-  "engine": { "horsepower": 455 },
-  "features": { "adas": true },
-  "images": { "thumbnail": "/images/xc60/thumb.jpg", "gallery": ["/images/xc60/front.jpg"] }
-},
-{
-  "id": 43,
-  "brand": "Skoda",
-  "model": "Kushaq",
-  "variant": "Style",
-  "country": "Czech Republic",
-  "bodyType": "SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 1199000, "max": 1799000, "currency": "INR" },
-  "engine": { "displacementCC": 1498, "horsepower": 148 },
-  "features": { "airbags": 6 },
-  "images": { "thumbnail": "/images/kushaq/thumb.jpg", "gallery": ["/images/kushaq/front.jpg"] }
-},
-{
-  "id": 44,
-  "brand": "Volkswagen",
-  "model": "Taigun",
-  "variant": "GT Plus",
-  "country": "Germany",
-  "bodyType": "SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 1199000, "max": 1899000, "currency": "INR" },
-  "engine": { "displacementCC": 1498, "horsepower": 148 },
-  "features": { "airbags": 6 },
-  "images": { "thumbnail": "/images/taigun/thumb.jpg", "gallery": ["/images/taigun/front.jpg"] }
-},
-{
-  "id": 45,
-  "brand": "Renault",
-  "model": "Kiger",
-  "variant": "RXZ",
-  "country": "France",
-  "bodyType": "Compact SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 699000, "max": 999000, "currency": "INR" },
-  "engine": { "displacementCC": 999, "horsepower": 100 },
-  "features": { "airbags": 4 },
-  "images": { "thumbnail": "/images/kiger/thumb.jpg", "gallery": ["/images/kiger/front.jpg"] }
-},
-{
-  "id": 46,
-  "brand": "Citroen",
-  "model": "C3",
-  "variant": "Turbo",
-  "country": "France",
-  "bodyType": "Hatchback",
-  "fuelType": "Petrol",
-  "price": { "min": 699000, "max": 899000, "currency": "INR" },
-  "engine": { "displacementCC": 1199, "horsepower": 110 },
-  "features": { "airbags": 2 },
-  "images": { "thumbnail": "/images/c3/thumb.jpg", "gallery": ["/images/c3/front.jpg"] }
-},
-{
-  "id": 47,
-  "brand": "Isuzu",
-  "model": "V-Cross",
-  "variant": "Z Prestige",
-  "country": "Japan",
-  "bodyType": "Pickup",
-  "fuelType": "Diesel",
-  "price": { "min": 3099000, "max": 3599000, "currency": "INR" },
-  "engine": { "displacementCC": 1898, "horsepower": 161 },
-  "features": { "4x4": true },
-  "images": { "thumbnail": "/images/vcross/thumb.jpg", "gallery": ["/images/vcross/front.jpg"] }
-},
-{
-  "id": 48,
-  "brand": "Mini",
-  "model": "Cooper SE",
-  "variant": "Electric",
-  "country": "UK",
-  "bodyType": "Electric Hatchback",
-  "fuelType": "Electric",
-  "price": { "min": 5390000, "max": 5590000, "currency": "INR" },
-  "performance": { "rangeKm": 270 },
-  "images": { "thumbnail": "/images/cooperse/thumb.jpg", "gallery": ["/images/cooperse/front.jpg"] }
-},
-{
-  "id": 49,
-  "brand": "Jaguar",
-  "model": "F-Pace",
-  "variant": "R-Dynamic",
-  "country": "UK",
-  "bodyType": "Luxury SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 7290000, "max": 7890000, "currency": "INR" },
-  "engine": { "displacementCC": 1997, "horsepower": 246 },
-  "images": { "thumbnail": "/images/fpace/thumb.jpg", "gallery": ["/images/fpace/front.jpg"] }
-},
-{
-  "id": 50,
-  "brand": "Land Rover",
-  "model": "Defender",
-  "variant": "110",
-  "country": "UK",
-  "bodyType": "Off-road SUV",
-  "fuelType": "Diesel",
-  "price": { "min": 9390000, "max": 10500000, "currency": "INR" },
-  "engine": { "displacementCC": 2997, "horsepower": 296 },
-  "performance": { "groundClearanceMm": 291 },
-  "features": { "4x4": true },
-  "images": { "thumbnail": "/images/defender/thumb.jpg", "gallery": ["/images/defender/front.jpg"] }
-},
-{
-  "id": 51,
-  "brand": "Maruti Suzuki",
-  "model": "Grand Vitara",
-  "variant": "Strong Hybrid",
-  "country": "India",
-  "bodyType": "SUV",
-  "fuelType": "Hybrid",
-  "price": { "min": 1845000, "max": 2095000, "currency": "INR" },
-  "engine": { "displacementCC": 1490, "horsepower": 114 },
-  "performance": { "mileage": 27.9, "fuelTankLitres": 45, "groundClearanceMm": 210 },
-  "features": { "airbags": 6, "adas": true },
-  "images": { "thumbnail": "/images/grandvitara/thumb.jpg", "gallery": ["/images/grandvitara/front.jpg"] }
-},
-{
-  "id": 52,
-  "brand": "Hyundai",
-  "model": "Alcazar",
-  "variant": "Signature",
-  "country": "Korea",
-  "bodyType": "SUV",
-  "fuelType": "Diesel",
-  "price": { "min": 2099000, "max": 2499000, "currency": "INR" },
-  "engine": { "displacementCC": 1493, "horsepower": 114 },
-  "performance": { "mileage": 18.1 },
-  "features": { "airbags": 6, "panoramicSunroof": true },
-  "images": { "thumbnail": "/images/alcazar/thumb.jpg", "gallery": ["/images/alcazar/front.jpg"] }
-},
-{
-  "id": 53,
-  "brand": "Tata",
-  "model": "Safari",
-  "variant": "Accomplished Plus",
-  "country": "India",
-  "bodyType": "SUV",
-  "fuelType": "Diesel",
-  "price": { "min": 2299000, "max": 2799000, "currency": "INR" },
-  "engine": { "displacementCC": 1956, "horsepower": 168 },
-  "performance": { "mileage": 16.3, "groundClearanceMm": 205 },
-  "features": { "airbags": 6, "adas": true },
-  "images": { "thumbnail": "/images/safari/thumb.jpg", "gallery": ["/images/safari/front.jpg"] }
-},
-{
-  "id": 54,
-  "brand": "Kia",
-  "model": "Carens",
-  "variant": "Luxury Plus",
-  "country": "Korea",
-  "bodyType": "MPV",
-  "fuelType": "Petrol",
-  "price": { "min": 1599000, "max": 1999000, "currency": "INR" },
-  "engine": { "displacementCC": 1482, "horsepower": 158 },
-  "performance": { "mileage": 16.5 },
-  "features": { "airbags": 6 },
-  "images": { "thumbnail": "/images/carens/thumb.jpg", "gallery": ["/images/carens/front.jpg"] }
-},
-{
-  "id": 55,
-  "brand": "Toyota",
-  "model": "Innova Hycross",
-  "variant": "ZX Hybrid",
-  "country": "Japan",
-  "bodyType": "MPV",
-  "fuelType": "Hybrid",
-  "price": { "min": 2597000, "max": 3050000, "currency": "INR" },
-  "engine": { "displacementCC": 1987, "horsepower": 186 },
-  "performance": { "mileage": 23.2 },
-  "features": { "airbags": 6, "adas": true },
-  "images": { "thumbnail": "/images/hycross/thumb.jpg", "gallery": ["/images/hycross/front.jpg"] }
-},
-{
-  "id": 56,
-  "brand": "Honda",
-  "model": "Elevate",
-  "variant": "ZX",
-  "country": "Japan",
-  "bodyType": "SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 1599000, "max": 1799000, "currency": "INR" },
-  "engine": { "displacementCC": 1498, "horsepower": 119 },
-  "performance": { "mileage": 15.3, "groundClearanceMm": 220 },
-  "features": { "airbags": 6, "adas": true },
-  "images": { "thumbnail": "/images/elevate/thumb.jpg", "gallery": ["/images/elevate/front.jpg"] }
-},
-{
-  "id": 57,
-  "brand": "Skoda",
-  "model": "Octavia",
-  "variant": "L&K",
-  "country": "Czech Republic",
-  "bodyType": "Sedan",
-  "fuelType": "Petrol",
-  "price": { "min": 2799000, "max": 2999000, "currency": "INR" },
-  "engine": { "displacementCC": 1984, "horsepower": 190 },
-  "performance": { "mileage": 15.8 },
-  "features": { "airbags": 8 },
-  "images": { "thumbnail": "/images/octavia/thumb.jpg", "gallery": ["/images/octavia/front.jpg"] }
-},
-{
-  "id": 58,
-  "brand": "Volkswagen",
-  "model": "Tiguan",
-  "variant": "R-Line",
-  "country": "Germany",
-  "bodyType": "SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 3499000, "max": 3699000, "currency": "INR" },
-  "engine": { "displacementCC": 1984, "horsepower": 190 },
-  "features": { "airbags": 6, "adas": true },
-  "images": { "thumbnail": "/images/tiguan/thumb.jpg", "gallery": ["/images/tiguan/front.jpg"] }
-},
-{
-  "id": 59,
-  "brand": "MG",
-  "model": "Gloster",
-  "variant": "Savvy",
-  "country": "UK",
-  "bodyType": "SUV",
-  "fuelType": "Diesel",
-  "price": { "min": 3899000, "max": 4299000, "currency": "INR" },
-  "engine": { "displacementCC": 1996, "horsepower": 215 },
-  "features": { "airbags": 6, "adas": true },
-  "images": { "thumbnail": "/images/gloster/thumb.jpg", "gallery": ["/images/gloster/front.jpg"] }
-},
-{
-  "id": 60,
-  "brand": "Citroen",
-  "model": "C5 Aircross",
-  "variant": "Shine",
-  "country": "France",
-  "bodyType": "SUV",
-  "fuelType": "Diesel",
-  "price": { "min": 3650000, "max": 3850000, "currency": "INR" },
-  "engine": { "displacementCC": 1997, "horsepower": 174 },
-  "features": { "airbags": 6 },
-  "images": { "thumbnail": "/images/c5/thumb.jpg", "gallery": ["/images/c5/front.jpg"] }
-},
-{
-  "id": 61,
-  "brand": "BMW",
-  "model": "i4",
-  "variant": "eDrive40",
-  "country": "Germany",
-  "bodyType": "Electric Sedan",
-  "fuelType": "Electric",
-  "price": { "min": 7250000, "max": 7500000, "currency": "INR" },
-  "performance": { "rangeKm": 590, "zeroToHundred": 5.7 },
-  "features": { "adas": true },
-  "images": { "thumbnail": "/images/i4/thumb.jpg", "gallery": ["/images/i4/front.jpg"] }
-},
-{
-  "id": 62,
-  "brand": "Mercedes-Benz",
-  "model": "EQB",
-  "variant": "350 4MATIC",
-  "country": "Germany",
-  "bodyType": "Electric SUV",
-  "fuelType": "Electric",
-  "price": { "min": 7700000, "max": 8000000, "currency": "INR" },
-  "performance": { "rangeKm": 423 },
-  "features": { "adas": true },
-  "images": { "thumbnail": "/images/eqb/thumb.jpg", "gallery": ["/images/eqb/front.jpg"] }
-},
-{
-  "id": 63,
-  "brand": "Audi",
-  "model": "Q8 e-tron",
-  "variant": "55 Quattro",
-  "country": "Germany",
-  "bodyType": "Electric SUV",
-  "fuelType": "Electric",
-  "price": { "min": 11400000, "max": 11800000, "currency": "INR" },
-  "performance": { "rangeKm": 582 },
-  "features": { "adas": true },
-  "images": { "thumbnail": "/images/q8etron/thumb.jpg", "gallery": ["/images/q8etron/front.jpg"] }
-},
-{
-  "id": 64,
-  "brand": "Kia",
-  "model": "EV6",
-  "variant": "GT Line",
-  "country": "Korea",
-  "bodyType": "Electric Crossover",
-  "fuelType": "Electric",
-  "price": { "min": 6095000, "max": 6395000, "currency": "INR" },
-  "performance": { "rangeKm": 528, "zeroToHundred": 5.2 },
-  "features": { "adas": true },
-  "images": { "thumbnail": "/images/ev6/thumb.jpg", "gallery": ["/images/ev6/front.jpg"] }
-},
-{
-  "id": 65,
-  "brand": "Volvo",
-  "model": "XC40 Recharge",
-  "variant": "Ultimate",
-  "country": "Sweden",
-  "bodyType": "Electric SUV",
-  "fuelType": "Electric",
-  "price": { "min": 5690000, "max": 5890000, "currency": "INR" },
-  "performance": { "rangeKm": 418 },
-  "features": { "adas": true },
-  "images": { "thumbnail": "/images/xc40re/thumb.jpg", "gallery": ["/images/xc40re/front.jpg"] }
-},
-{
-  "id": 66,
-  "brand": "Jeep",
-  "model": "Wrangler",
-  "variant": "Rubicon",
-  "country": "USA",
-  "bodyType": "Off-road SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 6394000, "max": 6794000, "currency": "INR" },
-  "engine": { "displacementCC": 1995, "horsepower": 268 },
-  "features": { "4x4": true },
-  "images": { "thumbnail": "/images/wrangler/thumb.jpg", "gallery": ["/images/wrangler/front.jpg"] }
-},
-{
-  "id": 67,
-  "brand": "Subaru",
-  "model": "Outback",
-  "variant": "AWD",
-  "country": "Japan",
-  "bodyType": "Crossover",
-  "fuelType": "Petrol",
-  "price": { "min": 4099000, "max": 4399000, "currency": "INR" },
-  "engine": { "displacementCC": 2498, "horsepower": 188 },
-  "features": { "awd": true },
-  "images": { "thumbnail": "/images/outback/thumb.jpg", "gallery": ["/images/outback/front.jpg"] }
-},
-{
-  "id": 68,
-  "brand": "Mazda",
-  "model": "CX-5",
-  "variant": "Signature",
-  "country": "Japan",
-  "bodyType": "SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 3499000, "max": 3799000, "currency": "INR" },
-  "engine": { "displacementCC": 2488, "horsepower": 187 },
-  "images": { "thumbnail": "/images/cx5/thumb.jpg", "gallery": ["/images/cx5/front.jpg"] }
-},
-{
-  "id": 69,
-  "brand": "Peugeot",
-  "model": "3008",
-  "variant": "GT",
-  "country": "France",
-  "bodyType": "SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 3999000, "max": 4299000, "currency": "INR" },
-  "engine": { "displacementCC": 1598, "horsepower": 181 },
-  "images": { "thumbnail": "/images/3008/thumb.jpg", "gallery": ["/images/3008/front.jpg"] }
-},
-{
-  "id": 70,
-  "brand": "Genesis",
-  "model": "GV80",
-  "variant": "Luxury",
-  "country": "Korea",
-  "bodyType": "Luxury SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 9800000, "max": 10500000, "currency": "INR" },
-  "engine": { "displacementCC": 2497, "horsepower": 300 },
-  "features": { "luxuryInterior": true, "adas": true },
-  "images": { "thumbnail": "/images/gv80/thumb.jpg", "gallery": ["/images/gv80/front.jpg"] }
-},
-{
-  "id": 71,
-  "brand": "Maruti Suzuki",
-  "model": "Ertiga",
-  "variant": "ZXI Plus",
-  "country": "India",
-  "bodyType": "MPV",
-  "fuelType": "Petrol",
-  "price": { "min": 1089000, "max": 1399000, "currency": "INR" },
-  "engine": { "displacementCC": 1462, "horsepower": 102 },
-  "performance": { "mileage": 20.5 },
-  "features": { "airbags": 4 },
-  "images": { "thumbnail": "/images/ertiga/thumb.jpg", "gallery": ["/images/ertiga/front.jpg"] }
-},
-{
-  "id": 72,
-  "brand": "Maruti Suzuki",
-  "model": "XL6",
-  "variant": "Alpha Plus",
-  "country": "India",
-  "bodyType": "MPV",
-  "fuelType": "Petrol",
-  "price": { "min": 1199000, "max": 1499000, "currency": "INR" },
-  "engine": { "displacementCC": 1462, "horsepower": 102 },
-  "features": { "airbags": 4 },
-  "images": { "thumbnail": "/images/xl6/thumb.jpg", "gallery": ["/images/xl6/front.jpg"] }
-},
-{
-  "id": 73,
-  "brand": "Hyundai",
-  "model": "Venue",
-  "variant": "SX(O)",
-  "country": "Korea",
-  "bodyType": "Compact SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 1099000, "max": 1399000, "currency": "INR" },
-  "engine": { "displacementCC": 998, "horsepower": 118 },
-  "performance": { "mileage": 18.1 },
-  "features": { "airbags": 6 },
-  "images": { "thumbnail": "/images/venue/thumb.jpg", "gallery": ["/images/venue/front.jpg"] }
-},
-{
-  "id": 74,
-  "brand": "Kia",
-  "model": "Sonet",
-  "variant": "GTX Plus",
-  "country": "Korea",
-  "bodyType": "Compact SUV",
-  "fuelType": "Diesel",
-  "price": { "min": 1199000, "max": 1499000, "currency": "INR" },
-  "engine": { "displacementCC": 1493, "horsepower": 114 },
-  "performance": { "mileage": 19.0 },
-  "features": { "airbags": 6 },
-  "images": { "thumbnail": "/images/sonet/thumb.jpg", "gallery": ["/images/sonet/front.jpg"] }
-},
-{
-  "id": 75,
-  "brand": "Tata",
-  "model": "Altroz",
-  "variant": "Racer",
-  "country": "India",
-  "bodyType": "Hatchback",
-  "fuelType": "Petrol",
-  "price": { "min": 999000, "max": 1099000, "currency": "INR" },
-  "engine": { "displacementCC": 1199, "horsepower": 118 },
-  "performance": { "mileage": 18.5 },
-  "features": { "airbags": 6 },
-  "images": { "thumbnail": "/images/altroz/thumb.jpg", "gallery": ["/images/altroz/front.jpg"] }
-},
-{
-  "id": 76,
-  "brand": "Renault",
-  "model": "Triber",
-  "variant": "RXZ",
-  "country": "France",
-  "bodyType": "MPV",
-  "fuelType": "Petrol",
-  "price": { "min": 699000, "max": 899000, "currency": "INR" },
-  "engine": { "displacementCC": 999, "horsepower": 72 },
-  "performance": { "mileage": 19.0 },
-  "features": { "airbags": 4 },
-  "images": { "thumbnail": "/images/triber/thumb.jpg", "gallery": ["/images/triber/front.jpg"] }
-},
-{
-  "id": 77,
-  "brand": "Skoda",
-  "model": "Superb",
-  "variant": "L&K",
-  "country": "Czech Republic",
-  "bodyType": "Luxury Sedan",
-  "fuelType": "Petrol",
-  "price": { "min": 3599000, "max": 3899000, "currency": "INR" },
-  "engine": { "displacementCC": 1984, "horsepower": 190 },
-  "features": { "airbags": 8 },
-  "images": { "thumbnail": "/images/superb/thumb.jpg", "gallery": ["/images/superb/front.jpg"] }
-},
-{
-  "id": 78,
-  "brand": "Volkswagen",
-  "model": "Polo",
-  "variant": "GTI",
-  "country": "Germany",
-  "bodyType": "Hatchback",
-  "fuelType": "Petrol",
-  "price": { "min": 2599000, "max": 2799000, "currency": "INR" },
-  "engine": { "displacementCC": 1984, "horsepower": 192 },
-  "features": { "sportMode": true },
-  "images": { "thumbnail": "/images/polo/thumb.jpg", "gallery": ["/images/polo/front.jpg"] }
-},
-{
-  "id": 79,
-  "brand": "Toyota",
-  "model": "Urban Cruiser Hyryder",
-  "variant": "Hybrid V",
-  "country": "Japan",
-  "bodyType": "SUV",
-  "fuelType": "Hybrid",
-  "price": { "min": 1699000, "max": 2099000, "currency": "INR" },
-  "engine": { "displacementCC": 1490, "horsepower": 114 },
-  "performance": { "mileage": 27.9 },
-  "features": { "airbags": 6 },
-  "images": { "thumbnail": "/images/hyryder/thumb.jpg", "gallery": ["/images/hyryder/front.jpg"] }
-},
-{
-  "id": 80,
-  "brand": "Nissan",
-  "model": "Magnite",
-  "variant": "XV Premium",
-  "country": "Japan",
-  "bodyType": "Compact SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 899000, "max": 1099000, "currency": "INR" },
-  "engine": { "displacementCC": 999, "horsepower": 100 },
-  "performance": { "mileage": 20.0 },
-  "features": { "airbags": 4 },
-  "images": { "thumbnail": "/images/magnite/thumb.jpg", "gallery": ["/images/magnite/front.jpg"] }
-},
-{
-  "id": 81,
-  "brand": "Ford",
-  "model": "Endeavour",
-  "variant": "Titanium",
-  "country": "USA",
-  "bodyType": "SUV",
-  "fuelType": "Diesel",
-  "price": { "min": 3699000, "max": 4199000, "currency": "INR" },
-  "engine": { "displacementCC": 1996, "horsepower": 170 },
-  "features": { "4x4": true },
-  "images": { "thumbnail": "/images/endeavour/thumb.jpg", "gallery": ["/images/endeavour/front.jpg"] }
-},
-{
-  "id": 82,
-  "brand": "Mitsubishi",
-  "model": "Pajero Sport",
-  "variant": "4x4",
-  "country": "Japan",
-  "bodyType": "SUV",
-  "fuelType": "Diesel",
-  "price": { "min": 3499000, "max": 3799000, "currency": "INR" },
-  "engine": { "displacementCC": 2477, "horsepower": 178 },
-  "features": { "4x4": true },
-  "images": { "thumbnail": "/images/pajero/thumb.jpg", "gallery": ["/images/pajero/front.jpg"] }
-},
-{
-  "id": 83,
-  "brand": "Suzuki",
-  "model": "Jimny",
-  "variant": "Alpha",
-  "country": "Japan",
-  "bodyType": "Off-road SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 1274000, "max": 1440000, "currency": "INR" },
-  "engine": { "displacementCC": 1462, "horsepower": 103 },
-  "performance": { "groundClearanceMm": 210 },
-  "features": { "4x4": true },
-  "images": { "thumbnail": "/images/jimny/thumb.jpg", "gallery": ["/images/jimny/front.jpg"] }
-},
-{
-  "id": 84,
-  "brand": "Lexus",
-  "model": "RX",
-  "variant": "350h",
-  "country": "Japan",
-  "bodyType": "Luxury SUV",
-  "fuelType": "Hybrid",
-  "price": { "min": 9500000, "max": 10200000, "currency": "INR" },
-  "engine": { "horsepower": 246 },
-  "features": { "luxuryInterior": true },
-  "images": { "thumbnail": "/images/rx/thumb.jpg", "gallery": ["/images/rx/front.jpg"] }
-},
-{
-  "id": 85,
-  "brand": "Infiniti",
-  "model": "QX60",
-  "variant": "Luxury",
-  "country": "Japan",
-  "bodyType": "Luxury SUV",
-  "fuelType": "Petrol",
-  "price": { "min": 8800000, "max": 9200000, "currency": "INR" },
-  "engine": { "horsepower": 295 },
-  "features": { "luxuryInterior": true },
-  "images": { "thumbnail": "/images/qx60/thumb.jpg", "gallery": ["/images/qx60/front.jpg"] }
-},
-{
-  "id": 86,
-  "brand": "Alfa Romeo",
-  "model": "Giulia",
-  "variant": "Quadrifoglio",
-  "country": "Italy",
-  "bodyType": "Sports Sedan",
-  "fuelType": "Petrol",
-  "price": { "min": 9800000, "max": 10200000, "currency": "INR" },
-  "engine": { "displacementCC": 2891, "horsepower": 505 },
-  "performance": { "zeroToHundred": 3.9 },
-  "images": { "thumbnail": "/images/giulia/thumb.jpg", "gallery": ["/images/giulia/front.jpg"] }
-},
-{
-  "id": 87,
-  "brand": "Maserati",
-  "model": "Ghibli",
-  "variant": "Trofeo",
-  "country": "Italy",
-  "bodyType": "Luxury Sedan",
-  "fuelType": "Petrol",
-  "price": { "min": 16000000, "max": 17000000, "currency": "INR" },
-  "engine": { "horsepower": 580 },
-  "features": { "luxuryInterior": true },
-  "images": { "thumbnail": "/images/ghibli/thumb.jpg", "gallery": ["/images/ghibli/front.jpg"] }
-},
-{
-  "id": 88,
-  "brand": "Aston Martin",
-  "model": "Vantage",
-  "variant": "V8",
-  "country": "UK",
-  "bodyType": "Supercar",
-  "fuelType": "Petrol",
-  "price": { "min": 32000000, "max": 34000000, "currency": "INR" },
-  "engine": { "horsepower": 503 },
-  "performance": { "zeroToHundred": 3.6 },
-  "images": { "thumbnail": "/images/vantage/thumb.jpg", "gallery": ["/images/vantage/front.jpg"] }
-},
-{
-  "id": 89,
-  "brand": "Bugatti",
-  "model": "Chiron",
-  "variant": "Sport",
-  "country": "France",
-  "bodyType": "Hypercar",
-  "fuelType": "Petrol",
-  "price": { "min": 190000000, "max": 210000000, "currency": "INR" },
-  "engine": { "horsepower": 1500 },
-  "performance": { "topSpeedKmph": 420 },
-  "images": { "thumbnail": "/images/chiron/thumb.jpg", "gallery": ["/images/chiron/front.jpg"] }
-},
-{
-  "id": 90,
-  "brand": "Koenigsegg",
-  "model": "Jesko",
-  "variant": "Attack",
-  "country": "Sweden",
-  "bodyType": "Hypercar",
-  "fuelType": "Petrol",
-  "price": { "min": 220000000, "max": 250000000, "currency": "INR" },
-  "engine": { "horsepower": 1600 },
-  "performance": { "topSpeedKmph": 480 },
-  "images": { "thumbnail": "/images/jesko/thumb.jpg", "gallery": ["/images/jesko/front.jpg"] }
-}
-
-
-
-
-
+  }
 ]

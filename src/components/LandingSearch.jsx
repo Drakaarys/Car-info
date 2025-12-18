@@ -32,6 +32,7 @@ const LandingSearch = () => {
         scrollTrigger: {
           trigger: sectionRef.current,
           start: "top 75%",
+          toggleActions: "play none none reverse",
         },
       });
 
@@ -45,6 +46,7 @@ const LandingSearch = () => {
         scrollTrigger: {
           trigger: sectionRef.current,
           start: "top 60%",
+          toggleActions: "play none none reverse",
         },
       });
     }, sectionRef);

@@ -2,6 +2,7 @@ import FeaturedCard from "./FeaturedCard";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import AnimatedTitle from "./AnimatedTitle";
 
 import v1 from "../assets/911.mp4";
 import v2 from "../assets/bmw-m3.mp4";
@@ -69,12 +70,21 @@ const Featured = () => {
 
     {/* Section Header */}
     <div className="mb-16 px-20 max-md:px-6">
-      <p className="text-sm uppercase tracking-widest text-black/60 text-center">
-        ⟡ Featured
-      </p>
-      <h2 className="mt-4 text-5xl font-bold text-black max-md:text-3xl text-center">
+      {/* <p className="text-sm uppercase tracking-widest text-black/60 text-center">
+        ⟡ Featured */}
+        <AnimatedTitle
+  title="⟡ Featured"
+  containerClass="text-sm uppercase tracking-widest text-black/60 text-center"
+/>
+
+      {/* </p> */}
+      {/* <h2 className="mt-4 text-5xl font-bold text-black max-md:text-3xl text-center">
         Handpicked <br /> Performance Icons
-      </h2>
+      </h2> */}
+      <AnimatedTitle
+  title=" Handpicked <br /> Performance Icons"
+  containerClass="mt-4 text-5xl font-bold text-pink max-md:text-3xl text-center"
+/>
     </div>
     <br></br>
     <br></br>

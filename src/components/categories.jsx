@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import CategoryCard from "./CategoryCard";
 import { categories } from "../data/categories";
+import AnimatedTitle from "./AnimatedTitle";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -32,12 +33,14 @@ const Categories = () => {
 
       {/* Header */}
       <div className="mb-16 px-20 max-md:px-6 text-center">
-        <p className="text-sm uppercase tracking-widest text-white/50">
-          ⟡ Categories
-        </p>
-        <h2 className="mt-4 text-5xl font-bold text-white max-md:text-3xl">
-          Find Your <br /> Perfect Drive
-        </h2>
+        <AnimatedTitle
+          title="⟡ Categories"
+          containerClass="text-sm uppercase tracking-widest text-white/50"
+        />
+        <AnimatedTitle
+          title=" Find Your <br /> Perfect Drive"
+          containerClass="mt-4 text-5xl font-bold text-white max-md:text-3xl"
+        />
       </div>
 
       {/* Grid */}
